@@ -4,9 +4,15 @@
 	1. De afbeeldingen in de achtergrond
 	2. De css files voor de opmaak
 	3. De script files voor het automatisch laten verlopen
-- Mapstructuur
-	start
+- Structuur site
+	- taal.html
+	- start
 		- css
 		- images
 		- js
-		- taal.html
+	- site
+		- css
+		- images
+		- js
+		- NE
+	
