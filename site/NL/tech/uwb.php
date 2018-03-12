@@ -6,77 +6,27 @@
 	<meta name= description content="CarsExplained is een project opgestart door Jan Haverbeke met de bedoeling technologie in het algemeen en voor auto's in het bijzonder uit te leggen aan iedereen.">
 	<meta name= keywords content="carsexplained, technologie, training, uitleg, auto, diagnose">
 	<title>Home</title>
-	<link rel="icon" href="../images/favicon.ico" type="image/ico" sizes="16x16">
+	<link rel="icon" href="../../images/favicon.ico" type="image/ico" sizes="16x16">
 
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
 
   <!-- Included CSS Files -->
-  <link rel="stylesheet" href="../css/foundation.css">
-  <link rel="stylesheet" href="../css/responsive.css">
+  <link rel="stylesheet" href="../../css/foundation.css">
+  <link rel="stylesheet" href="../../css/responsive.css">
 
   <!--Included javascript files-->
-  <script src="../js/modernizr.foundation.js"></script>
+  <script src="../../js/modernizr.foundation.js"></script>
 
   
   </head>
 
-  <body>
+  <body>	
 	
-  <!--Navigation bar-->
-	<div class="row">
-		<div class="twelve columns">
-			<ul class="nav-bar">
-        <!--Logo-->
-        <div class="two columns"> 
-        <a href="index.html"><img src="../images/headerSite1.PNG" align="center"/></a>
-        </div>
-        <!--Home-->
-        <div class="two columns">  
-          <div class="dropdown">
-            <button class="dropbtnactive" href="index.html">Home</button>
-          </div>
-        </div>
-         <!--Projecten-->
-        <div class="two columns">  
-          <div class="dropdown">
-            <button class="dropbtn" href="carsExplainedTechnologie/carsExplainedTechnologie.html">Projecten</button>
-            <div class="dropdown-content">
-            <a href=""technologie/mobieleHydraulica.html"">AGV</a>
-            <a href="technologie/mobieleHydraulica.html">GSM slot</a>
-            <a href=""technologie/mobieleHydraulica.html"">Car Gauge</a>
-            </div>
-          </div>
-        </div>
-        <!--Technologie-->
-        <div class="two columns">  
-          <div class="dropdown">
-            <button class="dropbtn" href="carsExplainedTechnologie/carsExplainedTechnologie.html">Technologie</button>
-            <div class="dropdown-content">
-            <a href="tech/uwb.php">UWB</a>
-            <a href="technologie/mobieleHydraulica.html">Can Bus</a>
-            <a href="#">PixyCam</a>
-            </div>
-          </div>
-        </div>
-         <!--Over-->
-        <div class="two columns">  
-          <div class="dropdown">
-            <button class="dropbtn" href="carsExplainedOpleidingen/carsExplainedOpleidingen.html">Over</button>
-          </div>
-        </div>
-        <!--Contact-->
-        <div class="two columns">  
-          <div class="dropdown">
-            <button class="dropbtn" href="carsExplainedShop/carsExplainedShop.html">Contact</button> 
-          </div>
-        </div>        
-			</ul>
-			
-		</div>
-	</div>
-	
-	
+    <!--Header includen-->
+    <?php include("header.html"); ?>
+
+    <!--Uitleg over UWB-->
 	<div class="row">
 		<div class="twelve columns">
 			<div class="row">
@@ -114,18 +64,15 @@
 					<br />
 					<hr />
 					<h4>Contacteer me op LinkedIn</h4>
-          <a href="https://www.linkedin.com/in/jan-haverbeke-98948914b/"><img src="../images/jan1.jpg" style="width:100%"></a>
+          <a href="https://www.linkedin.com/in/jan-haverbeke-98948914b/"><img src="../../images/jan1.jpg" style="width:100%"></a>
 
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="twelve columns">
-		<hr />
-		<p align="center">©2018 Design by Jan Haverbeke</p>
-		</div>
-	</div>
+
+  <!--Footer includen-->
+  <?php include("footer.html"); ?>
 </body>
 
 
