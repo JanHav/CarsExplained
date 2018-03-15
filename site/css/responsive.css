@@ -85,7 +85,25 @@ body {font-family: Verdana,sans-serif;}
     background-color: inherit;
 }
 
+.dropdown .dropbtn a {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
 .dropdown .dropbtnactive {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: red;
+}
+
+.dropdown .dropbtnactive a {
     font-size: 16px;    
     border: none;
     outline: none;

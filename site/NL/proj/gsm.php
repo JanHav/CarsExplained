@@ -48,16 +48,13 @@
 					</ol>  
 					<h4>SMS'en ontvangen?</h4>
 					Laad het voorbeelprogramma GPRS_Loophandle.
-				</p>
-				<p>
-					Jan Haverbeke <br>Derde bachelor autotechnologie <br>0032471070354
-				</p>         
+				</p>       
 										
 				</div>
 		
 				<div class="six columns">
-          		<alt="Shield verbinden met gsm-netwerk"><img src="../../images/inigsm.jpg" style="width:100%"></a>
-          		<alt="Berichten ontvangen met behulp van shield"><img src="../../images/bergsm.jpg" style="width:100%"></a>
+          		<alt="Shield verbinden met gsm-netwerk"><img src="../../images/inigsm.JPG" style="width:100%"></a>
+          		<alt="Berichten ontvangen met behulp van shield"><img src="../../images/bergsm.JPG" style="width:100%"></a>
 
 				</div>
 			</div>
